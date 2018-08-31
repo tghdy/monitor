@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <title>示例</title>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery-ui.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/jquery-ui.css" />
+</head>
+
+<body>
+    <div class="topClass">
+        <div class="logClass">
+            <img src="image/logo.png" alt="智码科技" />
+        </div>
+        <span class="logSpan">示例页面</span>
+        <div class="topCutDiv"></div>
+        <div class="headClass">
+            <img src="image/head.png" alt="用户头像" />
+        </div>
+        <span class="userSpan">测试用户</span>
+    </div>
+    <div class="leftClass">
+        <div id="accordion">
+            <h3>个人主页</h3>
+            <div>
+                <ul>
+                    <li><span data-value="page/default.html">个人主页</span></li>
+                </ul>
+            </div>
+            <h3>用户管理</h3>
+            <div>
+                <ul>
+                    <li><span data-value="page/rfid_manage.html">RFID检测</span></li>
+                </ul>
+                <ul>
+                    <li><span data-value="page/position_manage.html">位置管理</span></li>
+                </ul>
+                <ul>
+                    <li><span data-value="page/person_manage.html">用户管理</span></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="cutDiv"></div>
+    <div class="mainClass">
+        <div class="breadcrumbClass">
+            <div id="menuLabel">个人主页</div>
+            <div class="mainCutDiv"></div>
+        </div>
+        <iframe id="pageContainer" frameborder="0" width="100%" height="89%" scrolling="false" src="page/default.html"></iframe>
+    </div>
+    <!-- 预备模态框 -->
+    <div id="modalDialog">
+        <iframe id="dialogContainer" frameborder="0" width="100%" height="100%" scrolling="false"></iframe>
+    </div>
+</body>
+
+</html>

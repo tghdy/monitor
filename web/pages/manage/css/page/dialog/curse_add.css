@@ -1,0 +1,212 @@
+html,body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: '微软雅黑';
+    background-color: #f0f2f5;
+    vertical-align: middle;
+}
+
+div {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.containerClass {
+    width: 90%;
+    margin: auto;
+    background-color: white;
+    border-radius: 2px 2px 0 0;
+    color: rgba(0,0,0,.85);
+    margin-bottom: 20px;
+}
+
+.titleClass {
+    height: 60px;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.titleClass span {
+    font-size: 16px;
+    line-height: 60px;
+    margin-left: 40px;
+}
+
+.baseClass {
+    margin-top: 20px;
+}
+
+.infoClass {
+    border-radius: 0 0 2px 2px;
+}
+
+.infoClass input,textarea,select{
+    width: 100%;
+    height: 32px;
+    font-size: 14px;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    display: inline-block;
+    padding: 4px 11px;
+}
+
+.rowClass {
+    /*display: flex;*/
+    /*margin: auto;*/
+    width: 90%;
+    margin-bottom: 15px;
+}
+
+.prefixRow {
+    padding-top: 20px;
+}
+
+.suffixRow {
+    padding-bottom: 20px;
+}
+
+.colClass {
+    padding: 0 30px;
+}
+
+.labelClass {
+    padding: 10px 0;
+}
+
+.controlClass select {
+    height: 42px;
+}
+
+.textareaClass textarea {
+    resize:none;
+    color: rgba(0,0,0,.85);
+    font-family: "微软雅黑";
+    height: 150px;
+}
+
+.kpClass {
+    width: 90%;
+    padding: 0 5%;
+    border-radius: 0 0 2px 2px;
+    padding-bottom: 20px;
+}
+
+.kpClass ul li {
+    padding: 5px;
+}
+
+.tableClass {
+    margin-bottom: 20px;
+}
+
+.dataTable {
+    width: 90%;
+    color: rgba(0, 0, 0, 0.65);
+    margin:auto;
+    margin-top: 20px;
+    height: 600px;
+}
+
+.dataTable span {
+    margin-left: 15px;
+}
+
+.dataTable thead {
+    background-color: #f0f2f5;
+    border: 0px #f0f2f5 solid;
+    border-radius: 3px;
+    height: 55px;
+    display: inline-table;
+    width: 100%;
+}
+
+.dataTable tbody {
+    display: table;
+    width: 100%;
+}
+
+.dataTable thead tr th {
+    line-height: 55px;
+    font-size: 14px;
+    text-align: left;
+}
+
+.dataTable tbody tr:hover {
+    background-color: #40a9ff71;
+}
+
+.dataTable tbody tr td {
+    height: 54px;
+    font-size: 14px;
+    text-align: left;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+#btnAddQuestion {
+    border: 1px solid;
+    color: rgba(0,0,0,.65);
+    background-color: #fff;
+    border-color: #d9d9d9;
+    border-style: dashed;
+    width: 90%;
+    height: 30px;
+    margin: auto;
+    display: block;
+    margin-top: 5px;
+}
+
+#btnAddQuestion:hover {
+    border-color: #40a9ff;
+    color: #40a9ff;
+}
+
+.paginationClass {
+    width: 100%;
+    height: 40px;
+    color: #d9d9d9;
+    font-family: 'Courier New', Courier;
+    padding-bottom: 20px;
+}
+
+.col1 {
+    width:25%;
+}
+
+.col2 {
+    width:5%;
+}
+
+.col3 {
+    width:50%;
+}
+
+.col4 {
+    width:20%;
+}
+
+.col4 a {
+    margin-left: 15px;
+    cursor: pointer;
+    text-decoration:none;
+    color: #40a9ff;
+}
+
+.pageDiv {
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    font-size: 14px;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    float: left;
+    margin: 3px;
+    cursor: pointer;
+}
+
+.pageSelected {
+    border: 1px solid #40a9ff;
+    color: #40a9ff;
+}
